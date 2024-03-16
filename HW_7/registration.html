@@ -7,7 +7,7 @@
     
 </head>
 <body>
-    <form action="blah-blah-blah">
+    <form action="blah-blah-blah" method="post">
         <fieldset>
             <legend>Basic User Information:</legend>
             
@@ -22,10 +22,12 @@
             <label for="ConfirmPassword">Confirm password:</label>
             <input type="password" id="ConfirmPassword" name="Confirm password" required><br>
             
-            <label for="gender">Gender:</label>
-            <input type="radio" id="gender" name="gender" value="Male">Male
-            <input type="radio" id="gender" name="gender" value="Female">Female
-            <input type="radio" id="gender" name="gender" value="Other">Other <br>
+            <label for="gender1">Gender:</label>
+            <input type="radio" id="gender1" name="gender" value="Male">Male
+            <label for="gender2"></label>
+            <input type="radio" id="gender2" name="gender" value="Female">Female
+            <label for="gender3"></label>
+            <input type="radio" id="gender3" name="gender" value="Other">Other <br>
 
             <label for="date">Date of birth:</label>
             <input type="date" id="date" >
@@ -51,7 +53,7 @@
                 <option value="China">China</option>
             </select> <br>
 
-            <label for="">City:</label>
+            <label for="city">City:</label>
             <input type="text" name="City " id="city"> <br>
 
             <label for="code">Postal Code:</label>
@@ -61,10 +63,12 @@
         <fieldset>
             <legend>Preferences:</legend>
 
-            <label for="contact">Prefered Contact Method:</label>
-            <input type="checkbox" name="Contact1" id="contact" value="Email">Email
-            <input type="checkbox" name="Contact2" id="contact" value="Phone">Phone
-            <input type="checkbox" name="Contact3" id="contact" value="Postal Mail">Postal Mail <br>
+            <label for="contact1">Prefered Contact Method:</label>
+            <input type="checkbox" name="Contact1" id="contact1" value="Email">Email
+            <label for="contact2"></label>
+            <input type="checkbox" name="Contact2" id="contact2" value="Phone">Phone
+            <label for="contact3"></label>
+            <input type="checkbox" name="Contact3" id="contact3" value="Postal Mail">Postal Mail <br>
             
             <label for="color">Favorite Color:</label>
             <input type="color" name="color" id="color">
