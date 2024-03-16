@@ -55,11 +55,37 @@
 
             <label for="code">Postal Code:</label>
             <input type="number" name="Postal Code" id="code"> <br>
-
-
-
-
         </fieldset>
+
+        <fieldset>
+            <legend>Preferences:</legend>
+
+            <label for="contact">Prefered Contact Method:</label>
+            <input type="checkbox" name="Contact1" id="contact" value="Email">Email
+            <input type="checkbox" name="Contact2" id="contact" value="Phone">Phone
+            <input type="checkbox" name="Contact3" id="contact" value="Postal Mail">Postal Mail <br>
+            
+            <label for="color">Favorite Color:</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Details:</legend>
+
+            <label for="information">How did you hear about us?</label>
+            <select name="Info about us" id="information">
+                <option value="Internet">Internet</option>
+                <option value="Friend">Friend</option>
+                <option value="Advertisment">Advertisment</option>
+            </select> <br>
+
+            <label for="feedback">Feedback/Comments</label>
+            <textarea name="Feedback" id="feedback" cols="25" rows="2"></textarea>
+        </fieldset>
+
+        
+
+    
     </form>
 
 </body>
