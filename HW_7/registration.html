@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form</title>
+    
 </head>
 <body>
     <form action="blah-blah-blah">
@@ -83,7 +84,23 @@
             <textarea name="Feedback" id="feedback" cols="25" rows="2"></textarea>
         </fieldset>
 
-        
+        <fieldset>
+            <legend>Profile:</legend>
+
+            <label for="picture">Upload a profile picture:</label>
+            <input type="file" name="Picture" id="picture" accept="image/png, image/jpg"><br>
+
+            <label for="WebsiteURL">Website URL:</label>
+            <input type="url" name="WebsiteURL" id="WebsiteURL"><br>
+
+            <label for="level">Experience Level with HTML:</label>
+            <input type="range" name="level" id="level" min="0" max="10" value="5" oninput="displayValue.value=level.value">
+            <output id="displayValue">5</output>/10
+        </fieldset>
+
+        <input type="submit" name="submit" id="submit">
+        <input type="reset" name="reset" id="reset">
+
 
     
     </form>
