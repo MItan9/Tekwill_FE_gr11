@@ -1,0 +1,14 @@
+#topic {
+    color: rgba(25, 31, 122, 0.846);
+    text-transform: uppercase;
+    text-decoration:underline;
+
+}
+
+p {
+    color: rgb(166, 0, 255);
+}
+
+.coolored-paragraph {
+    color: rgb(0, 174, 255);
+}
