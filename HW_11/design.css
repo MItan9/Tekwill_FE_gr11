@@ -21,12 +21,10 @@ h1 {
     width: 200px;
     height: 200px;
     background-color: rgb(127, 59, 237);
-    box-shadow: 0px 0px 30px  rgb(51, 4, 82);
+    box-shadow: 0px 0px 100px  rgb(51, 4, 82);
     border-radius: 50%;
     position: relative;
     margin: 100px;
-    
-
    
 }
 
