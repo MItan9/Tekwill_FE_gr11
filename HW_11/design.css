@@ -5,7 +5,7 @@ h1 {
 .content {
     width: 100px;
     height: 100px;
-    background-color: rgb(36, 255, 7);
+    background-color: rgb(7, 135, 255);
     border: 100px solid black;
     border-radius: 50%;
     box-shadow: 0px 0px 30px 20px white inset;
@@ -20,8 +20,8 @@ h1 {
     padding: 100px;
     width: 200px;
     height: 200px;
-    background-color: brown;
-    box-shadow: 0px 0px 30px  black;
+    background-color: rgb(127, 59, 237);
+    box-shadow: 0px 0px 30px  rgb(51, 4, 82);
     border-radius: 50%;
     position: relative;
     margin: 100px;
