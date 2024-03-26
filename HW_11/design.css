@@ -1,0 +1,30 @@
+h1 {
+    text-shadow: -1px -1px 3px rgb(141, 21, 174), 2px 2px 3px rgb(255, 153, 0) ;
+}
+
+.content {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(7, 135, 255);
+    border: 100px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px 20px white inset;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.container {
+    
+    padding: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(127, 59, 237);
+    box-shadow: 0px 0px 100px  rgb(51, 4, 82);
+    border-radius: 50%;
+    position: relative;
+    margin: 100px;
+   
+}
+
