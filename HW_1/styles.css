@@ -20,7 +20,7 @@ a.nav_color {
 
 a:hover {
     color: rgb(89, 82, 3);
-    display: inline;
+    /* display: inline; */
 }
 
 body {
@@ -62,7 +62,7 @@ nav {
 }
 
 li.nav_bar {
-    display: block;
+    display: inline;
 
 }
 
