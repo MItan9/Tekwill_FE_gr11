@@ -1,14 +1,79 @@
 #topic {
-    color: rgba(25, 31, 122, 0.846);
+    color: rgb(21, 51, 66);
     text-transform: uppercase;
     text-decoration:underline;
 
 }
 
-p {
-    color: rgb(166, 0, 255);
+ p { 
+    color: rgb(58, 7, 86);
+    font-size: 1.2em;
 }
 
 .coolored-paragraph {
-    color: rgb(0, 174, 255);
+    color: rgb(0, 46, 67);
+}
+
+a.nav_color {
+    color: cornsilk;
+}
+
+a:hover {
+    color: rgb(89, 82, 3);
+    /* display: inline; */
+}
+
+body {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    background-color: rgba(47, 79, 79, 0.5);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h2:first-of-type {
+    color: rgb(199, 56, 130);
+} 
+
+
+
+ol.first_list :nth-child(even) {
+    color: gold;
+}
+
+ul.second_list :nth-last-child(2) {
+    color: chocolate;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem
+    
+}
+
+li.nav_bar {
+    display: inline;
+
+}
+
+li.nav_bar::before {
+    content: ' \27B3';
+}
+
+li.nav_bar::after {
+    content: ' \27B3';
+}
+
+.big_image {
+    width: calc(50% + 150px);
 }
